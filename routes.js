@@ -47,6 +47,7 @@ function getRallyDefectById(rallyDefectId) {
 	// hehehehe
 	return request.get(getOptions);
 }
+// hhhohohohoohohohoh
 
 function updateInRally(rallyDefect) {
 	const defectUri = rallyDefect.QueryResult.Results[0]._ref;
