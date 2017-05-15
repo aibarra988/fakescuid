@@ -12,7 +12,7 @@ const authHeader = {
 router.get('/', (req, res) => {
 	res.send({
 		message: "Hello there!"
-	});
+	});// eeee vato!!
 });
 // lol change
 router.post('/', (req, res) => {
