@@ -44,7 +44,7 @@ function getRallyDefectById(rallyDefectId) {
 		headers: authHeader,
 		json: true
 	};
-	
+	// hehehehe
 	return request.get(getOptions);
 }
 
