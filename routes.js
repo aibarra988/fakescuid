@@ -40,7 +40,7 @@ router.post('/', (req, res) => {
 function getRallyDefectById(rallyDefectId) {
 	const queryString = '?query=(FormattedId = ' + rallyDefectId + ')&fetch=true';
 	const getOptions = {
-		url: site,
+		url: site + queryString,
 		headers: authHeader,
 		json: true
 	};
