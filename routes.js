@@ -21,6 +21,7 @@ router.post('/', (req, res) => {
 	const rallyDefectId = 'DE1';	// regex to get rally defect number from pr title
 
 	console.log('I am just a deliberate change for a test pr');
+	console.log('I am just another deliberate change for a test pr');
 
 	// Find and update Rally ticket
 	getRallyDefectById(rallyDefectId)
